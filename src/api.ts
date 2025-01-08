@@ -1,5 +1,5 @@
 const API_BASE_URL = 'https://api.metisai.ir/api/v1';
-const API_KEY = 'tpsg-Tj4KXRAF5tq1ZK4c4jIQPBQosprf6Zn';
+const API_KEY = 'YOUR_API_KEY';
 
 export async function getBots() {
   const response = await fetch(`${API_BASE_URL}/bots/all`, {
